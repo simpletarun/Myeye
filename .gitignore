@@ -1,0 +1,12 @@
+# Local environment / caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Runtime data: uploaded videos, face crops, plate crops and SQLite DB
+data/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
