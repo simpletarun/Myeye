@@ -1,9 +1,5 @@
 # 👁 Myeye — All-in-One Video Analytics
 
-![Live dashboard](docs/screenshot_live.png)
-![License plates](docs/screenshot_plates.png)
-![Face recognition](docs/screenshot_faces.png)
-
 **One free, unlimited, fully-local tool for live video analytics, license-plate OCR, vehicle colour and face recognition:**
 
 | Module | What it does |

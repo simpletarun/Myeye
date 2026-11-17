@@ -6,6 +6,9 @@ __pycache__/
 # Runtime data: uploaded videos, face crops, plate crops and SQLite DB
 data/
 
+# Local screenshots (not published)
+docs/screenshot_*.png
+
 # OS / editor noise
 .DS_Store
 Thumbs.db
