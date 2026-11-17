@@ -1,4 +1,4 @@
-/* Myeye AI - frontend logic (vanilla JS, zero dependencies) */
+/* Myeye - frontend logic (vanilla JS, zero dependencies) */
 "use strict";
 
 const $ = (s, el = document) => el.querySelector(s);

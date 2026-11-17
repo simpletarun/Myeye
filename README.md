@@ -1,9 +1,10 @@
-# 👁 Myeye AI — All-in-One Video Analytics
+# 👁 Myeye — All-in-One Video Analytics
 
 ![Live dashboard](docs/screenshot_live.png)
 ![License plates](docs/screenshot_plates.png)
+![Face recognition](docs/screenshot_faces.png)
 
-**One free, unlimited, fully-local tool that combines everything from the OpenViewer video series plus License-Plate OCR:**
+**One free, unlimited, fully-local tool for live video analytics, license-plate OCR, vehicle colour and face recognition:**
 
 | Module | What it does |
 |---|---|
@@ -39,7 +40,7 @@ environment, install everything and start the app.
 
 1. **Start a source** — top bar: *Webcam*, *Video file* (uploaded in-browser), *RTSP / IP camera* URL, or the **Demo traffic video** bundled in `assets/`.
 2. **Live Analytics** — real-time annotated stream, active/unique counters, detections timeline and class-mix charts.
-3. **Objects** — every tracked object as a card (thumbnail, class, colour badge, track id, time) with Human/Vehicle/Colour filters — like OpenViewer's Object Analysis page.
+3. **Objects** — every tracked object as a card (thumbnail, class, colour badge, track id, time) with Human/Vehicle/Colour filters.
 4. **License Plates** — plate log (thumbnail, plate text, vehicle, colour, confidence, time), top-plates ranking, CSV export, search.
    - *Vehicle mode*: plates are searched **inside detected vehicles** (traffic scenes).
    - *Plate close-up mode* (Settings): plates are searched on the **whole frame** — ideal when the camera already points at plates (parking/parking-gate cameras). The demo video works best with this mode; the app switches automatically when no vehicle is detected.

@@ -1,4 +1,4 @@
-"""Myeye AI - SQLite storage for events and enrolled faces."""
+"""Myeye - SQLite storage for events and enrolled faces."""
 from __future__ import annotations
 
 import json

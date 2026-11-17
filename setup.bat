@@ -1,5 +1,5 @@
 @echo off
-REM Myeye AI - one-click setup + run (Windows)
+REM Myeye - one-click setup + run (Windows)
 cd /d "%~dp0"
 where python >nul 2>nul || (echo Python 3.9+ is required. Install from https://python.org & pause & exit /b 1)
 REM a moved/copied project leaves a .venv with no pip or activate script

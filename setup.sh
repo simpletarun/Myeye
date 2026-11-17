@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Myeye AI - one-click setup + run (Linux / macOS)
+# Myeye - one-click setup + run (Linux / macOS)
 set -e
 cd "$(dirname "$0")"
 PY=${PYTHON:-python3}

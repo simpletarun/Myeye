@@ -1,16 +1,16 @@
-"""Myeye AI - paths, defaults and persistent settings."""
+"""Myeye - paths, defaults and persistent settings."""
 import json
 import os
 import threading
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = Path(os.environ.get("VISIONHUB_DATA", str(BASE_DIR / "data")))
+DATA_DIR = Path(os.environ.get("MYEYE_DATA", str(BASE_DIR / "data")))
 MODELS_DIR = DATA_DIR / "models"
 EVENTS_DIR = DATA_DIR / "events"
 FACES_DIR = DATA_DIR / "faces"
 UPLOADS_DIR = DATA_DIR / "uploads"
-DB_PATH = DATA_DIR / "visionhub.db"
+DB_PATH = DATA_DIR / "myeye.db"
 SETTINGS_PATH = DATA_DIR / "settings.json"
 DEMO_VIDEO = BASE_DIR / "assets" / "demo_traffic.mp4"
 

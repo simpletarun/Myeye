@@ -1,4 +1,4 @@
-"""Myeye AI - FastAPI application (backend HTTP API + web UI)."""
+"""Myeye - FastAPI application (backend HTTP API + web UI)."""
 from __future__ import annotations
 
 import csv
@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("myeye")
 
-app = FastAPI(title="Myeye AI", version="1.0.0")
+app = FastAPI(title="Myeye", version="1.0.0")
 engine = VideoEngine()
 
 WEB_DIR = config.BASE_DIR / "web"

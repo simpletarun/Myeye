@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Myeye AI - launcher. Usage: python run.py [--host H] [--port P]"""
+"""Myeye - launcher. Usage: python run.py [--host H] [--port P]"""
 import argparse
 import os
 import socket
@@ -45,9 +45,9 @@ def _check_deps() -> None:
 
 def main() -> None:
     _check_deps()
-    ap = argparse.ArgumentParser(description="Myeye AI - All-in-One Video Analytics")
-    ap.add_argument("--host", default=os.environ.get("VH_HOST", "127.0.0.1"))
-    ap.add_argument("--port", type=int, default=int(os.environ.get("VH_PORT", "8000")))
+    ap = argparse.ArgumentParser(description="Myeye - All-in-One Video Analytics")
+    ap.add_argument("--host", default=os.environ.get("MYEYE_HOST", "127.0.0.1"))
+    ap.add_argument("--port", type=int, default=int(os.environ.get("MYEYE_PORT", "8000")))
     ap.add_argument("--no-browser", action="store_true")
     args = ap.parse_args()
 
@@ -58,7 +58,7 @@ def main() -> None:
     url = f"http://{args.host}:{port}"
     print()
     print("  ╔══════════════════════════════════════════════════╗")
-    print("  ║   Myeye AI  ·  All-in-One Video Analytics        ║")
+    print("  ║   Myeye     ·  All-in-One Video Analytics        ║")
     print("  ╠══════════════════════════════════════════════════╣")
     print(f"  ║   Open the dashboard:  {url:<29s} ║")
     print("  ║   100% free · fully local · no cloud · unlimited ║")
